@@ -1,0 +1,42 @@
+.first-table {
+    border-collapse: collapse;
+}
+
+.first-table td {
+    border: 1px solid black;
+}
+
+.in-centre {
+    text-align: center;
+}
+
+.second-table .second-table__head {
+    background-color: green;
+}
+
+.second-table .second-table__data {
+    background-color: green;
+}
+
+.third-table__data {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+
+.first-row {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.last-row {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container {
+    background-color: purple;
+    color: white;
+    padding: 15px 30px;
+    border: 10px double white;
+}
