@@ -1,0 +1,50 @@
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42.26px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32.6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.main {
+    width: 100%;
+}
+
+.awesome {
+    width: 1170px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.awesome__line {
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+    margin: 0px auto;
+}
+
+.awesome__lorem {
+    color: #86878B;
+    padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 71px;
+}
+
+.awesome__container {
+    width: 100%;
+    padding-bottom: 58px;
+}
+
+.awesome__container__cards {
+    width: 370px;
+    color: #000000;
+    display: inline-block;
+}
