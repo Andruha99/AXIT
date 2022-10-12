@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.social-links {
+    padding-left: 470px;
+}
+
+.icon {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 28px;
+    padding-left: 35px;
+}
+
+.first-icon {
+    padding-left: 0px;
+}
+
+.copyright-text {
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-align: center;
+    padding-bottom: 27px;
+}

@@ -1,23 +1,24 @@
 .tabs {
     width: 1170px;
     margin: 0px auto;
+    margin-bottom: 50px;
 }
 
-.tabs__div {
+.tab-selector {
     width: 184px;
     display: inline-block;
 }
 
-.tabs__div__p {
+.tab-selector__text {
     text-align: center;
 }
 
-.tabs__one {
+.tab__one {
     border: 1px solid #C6CBCD;
     border-bottom: 0px;
 }
 
-.tabs__div__p {
+.tab-selector__text {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19.07px;
@@ -39,7 +40,7 @@
     margin-left: 85px;
 }
 
-.left-part__header {
+.left-part__title {
     font-size: 30px;
     line-height: 40.85px;
 }
