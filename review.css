@@ -1,0 +1,67 @@
+.customer-review {
+    display: flex;
+    justify-content: center;
+}
+
+.what-saying {
+    width: 1170px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.what-saying__lorem {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: #86878B;
+    font-size: 18px;
+    font-weight: 21.13px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding: 0px 90px;
+}
+
+.review-card {
+    position: relative;
+    width: 300px;
+
+}
+
+.triangle {
+    position: absolute;
+    left: 30px;
+    margin-bottom: 66px;
+}
+
+.review-text {
+    background-color: #E2E2E2;
+    color: #86878B;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+
+.review-info {
+    display: flex;
+    margin-top: 66px;
+}
+
+.reviewer-photo {
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.reviewer-name__first {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32.68px;
+    text-align: left;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reviewer-name__job-title {
+    text-align: left;
+}

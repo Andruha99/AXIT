@@ -1,0 +1,95 @@
+.prices-container {
+    display: flex;
+    justify-content: center;
+}
+
+.prices-content {
+    width: 1170px;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+
+.prices-container__title {
+    padding-top: 50px;
+}
+
+.prices-line {
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.prices-content__lorem {
+    color: #86878B;
+    margin-bottom: 59px;
+}
+
+.tariffs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 90px;
+}
+
+.tarrif-card {
+    width: 300px;
+}
+
+.tarif-head {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarif-head__name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    text-align: center;
+}
+
+.tarif-head__price {
+    border-top: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 20px 0px;
+    width: 370px;
+    margin: 0px;
+}
+
+.tarif-head__information {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.tarif-pluses {
+    background-color: white;
+    color: #86878B;
+}
+
+.list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.list__data {
+    list-style-type: none;
+    border-bottom: 2px solid #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21.13px;
+    padding: 15px 0px;
+}
+
+.first-card {
+    margin-top: 20px;
+}
