@@ -1,0 +1,52 @@
+.stylish-design {
+    width: 100%;
+    height: 442px;
+    background: url("images/bcg2.png");
+}
+
+.bcg-color {
+    width: 100%;
+    height: 442px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.stylish-container {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stylish-container__title {
+    color: white;
+    font-weight: 400;
+    line-height: 42.26px;
+    padding-top: 40px;
+}
+
+.stylish-line {
+    border-bottom: 1px solid white;
+    width: 170px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.stylish-container__text {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    margin-bottom: 70px;
+}
+
+.stylish-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 100px;
+    font-size: 18px;
+    line-height: 24.51px;
+}

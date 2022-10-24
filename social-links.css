@@ -1,0 +1,29 @@
+.social-media-top {
+    width: 100%;
+    background-color: #F8EFEF;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-container {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-left {
+    margin-right: 50px;
+}
+
+.social-media-left__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    margin-top: 18px;
+}
+
+.social-media-left__text {
+    width: 470px;
+    color: #86878B;
+}

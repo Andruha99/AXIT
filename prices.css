@@ -1,12 +1,13 @@
 .prices-container {
     display: flex;
     justify-content: center;
+    background-color: #F5F5F5;
+    width: 100%;
 }
 
 .prices-content {
     width: 1170px;
     text-align: center;
-    background-color: #F5F5F5;
     padding-bottom: 50px;
 }
 
@@ -31,11 +32,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 0px 90px;
 }
 
 .tarrif-card {
-    width: 300px;
+    width: 370px;
 }
 
 .tarif-head {
