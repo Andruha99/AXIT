@@ -65,3 +65,7 @@
 .reviewer-name__job-title {
     text-align: left;
 }
+
+.review-dots {
+    display: none;
+}

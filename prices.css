@@ -39,7 +39,7 @@
 }
 
 .tarif-head {
-    background-color: black;
+    background-color: #333333;
     color: white;
     display: flex;
     flex-direction: column;
@@ -52,14 +52,18 @@
     font-size: 24px;
     line-height: 32.68px;
     text-align: center;
+    margin: 10px 0px;
 }
 
 .tarif-head__price {
     border-top: 2px solid #F5F5F5;
     border-bottom: 2px solid #F5F5F5;
-    padding: 20px 0px;
     width: 370px;
+    height: 100px;
     margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tarif-head__information {
@@ -69,6 +73,7 @@
     line-height: 21.13px;
     text-align: center;
     opacity: 0.5;
+    margin: 10px 0px;
 }
 
 .tarif-pluses {

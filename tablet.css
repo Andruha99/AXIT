@@ -1,0 +1,298 @@
+@media screen and (min-width : 391px) and (max-width : 1180px){
+    .top-container {
+        width: 300px;
+        margin-right: 350px;
+    }
+
+    .ax-logo {
+        height: 31px;
+    }
+
+    .axit-logo {
+        height: 41px;
+    }
+
+    .head-info {
+        height: 768px;
+    }
+
+    .bcg-head-color {
+        height: 768px;
+    }
+
+    .header-content__title {
+        width: 454.36px;
+        font-size: 36px;
+        line-height: 42.26px;
+    }
+
+    .header-line {
+        width: 115px;
+        margin-top: 41px;
+        margin-bottom: 31px;
+    }
+
+    .header-content__text {
+        width: 183.1px;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .header-content__download {
+        height: 50px;
+        width: 183.1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 31.32px;
+    }
+
+    .heder-left-part {
+        padding-left: 115px;
+        padding-right: 36.36px;
+    }
+
+    .header-form {
+        width: 398px;
+        margin-right: 20px;
+    }
+
+    .main {
+        overflow-x: hidden;
+    }
+
+    .social-media-container {
+        padding-left: 16px;
+    }
+
+    .social-media-left__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24.51px;
+    }
+
+    .social-media-left__text {
+        font-size: 14px;
+        line-height: 16.44px;
+        font-weight: 400;
+    }
+
+    .tabs {
+        width: 1170px;
+        margin-top: 50px;
+        margin-left: 16px;
+
+    }
+
+    .tab-selector {
+        width: 160px;
+    }
+
+    .left-part__line {
+        margin-left: 75px;
+    }
+
+    .left-part {
+        padding: 0px 0px 27px 84.86px;
+        width: 500px; 
+        height: 356px;
+    }
+
+    .left-part__title {
+        font-size: 24px;
+        line-height: 32.68px;
+    }
+
+    .left-part__text {
+        line-height: 16.44px;
+        font-size: 14px;
+    }
+
+    .left-part__btn {
+        width: 231.81px;
+        height: 58px;
+        margin-top: 27px;
+        margin-bottom: 54px;
+    }
+
+    .liberty {
+        height: 385px;
+        width: 398.21px;
+    }
+
+    .block-why__title {
+        font-size: 24px;
+        line-height: 28.18px;
+    }
+
+    .block-why__line {
+        width: 142px;
+        padding-top: 20px;
+    }
+
+    .awesome__lorem {
+        padding-top: 32px;
+        margin-bottom: 50px;
+        line-height: 16.44px;
+        font-size: 14px;
+    }
+
+    .awesome-container__cards {
+        width: 318px;
+    }
+
+    .awesome-container__cards__image-one {
+        width: 147px;
+    }
+
+    .awesome__container__cards__image-two {
+        width: 147px;
+    }
+
+    .awesome__container__cards__image-three {
+        width: 147px;
+    }
+
+    .awesome-container__cards__title {
+        font-size: 18px;
+        line-height: 24.51px;
+    }
+
+    .awesome-container__cards__text {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .awesome {
+        margin: 0px;
+    }
+
+    .prices-container__title {
+        font-size: 24px;
+        line-height: 28.16px;
+    }
+
+    .prices-line {
+        width: 143px;
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+
+    .prices-content__lorem {
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-bottom: 32px;
+    }
+
+    .tariffs {
+        justify-content: space-around;
+    }
+
+    .tarrif-card {
+        width: 317px;
+    }
+
+    .tarif-head__price {
+        height: 88px;
+    }
+
+    .what-saying__title {
+        font-size: 24px;
+        line-height: 28.18px;
+    }
+
+    .what-saying__lorem {
+        padding-top: 0px;
+        padding-bottom: 32px;
+        font-size: 14px;
+        font-weight: 16.44px;
+    }
+
+    .review-text {
+        padding: 50px 5px;
+    }
+
+    .review-text__lorem {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .review-photo {
+        width: 63px;
+    }
+
+    .reviewer-name__first {
+        font-size: 18px;
+        line-height: 24.51px;
+        margin: 0px;
+    }
+
+    .reviewer-name__job-title {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .stylish-design {
+        height: 358px;
+    }
+
+    .bcg-color {
+        height: 358px;
+    }
+
+    .stylish-container__title {
+        font-size: 24px;
+        line-height: 42.26px;
+        padding-top: 40px;
+    }
+
+    .stylish-line {
+        width: 142px;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+
+    .stylish-container__text {
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-bottom: 32px;
+    }
+
+    .stylish-btn {
+        padding: 10px 75px;
+    }
+
+    .contact-us__title {
+        font-size: 24px;
+        line-height: 28.18px;
+        font-weight: 700;
+    }
+
+    .contact-line {
+        width: 144px;
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
+
+    .contact-us__text {
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-bottom: 70px;
+    }
+
+    .contact-us__input {
+        width: 486px;
+    }
+
+    .contact-us__message {
+        width: 486px;
+    }
+
+    .send-btn {
+        padding: 15px 60px;
+    }
+
+    .copyright-text {
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 21.13px;
+    }
+}

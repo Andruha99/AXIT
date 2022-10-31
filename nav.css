@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .AXIT-head {
     width: 100%;
 }
@@ -15,6 +19,10 @@
 .nav-logo {
     padding: 22px 0px;
     padding-left: 115px;
+}
+
+.fa-bars {
+    display: none;
 }
 
 .nav-list {

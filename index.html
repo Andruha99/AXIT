@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d230e2eda7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="social-links.css">
     <link rel="stylesheet" href="tabs.css">
@@ -14,6 +15,8 @@
     <link rel="stylesheet" href="stylish.css">
     <link rel="stylesheet" href="contact-us.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="tablet.css">
     <title>AXIT</title>
 </head>
 <body>
@@ -21,9 +24,12 @@
         <nav class="site-top">
             <div class="top-container">
                 <div class="nav-logo">
-                    <img src="images/AX.png" alt="" class="ax-logo" height="51px">
-                    <img src="images/IT.png" alt="" class="ax-logo" height="51px">
+                    <img src="images/AX.png" alt="" class="ax-logo" height="31px">
+                    <img src="images/IT.png" alt="" class="ax-logo" height="31px">
                 </div>  
+            </div>
+            <div class="burger-menu">
+                <i class="fa-regular fa-bars"></i>
             </div>
             <div class="nav-list">
                 <div class="nav-name">Features</div>
@@ -46,7 +52,7 @@
                         <div class="header-line"></div>
                         <p class="header-content__text">Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit</p>
-                        <button class="header-content__download">Download</button>
+                        <button class="header-content__download" type="button">Download</button>
                     </div>
 
                     <div class="header-right-part">
@@ -58,7 +64,7 @@
                                 <input type="password" class = "header-form-inputs__input passwor-input" placeholder="Password">
                             </div>
                             
-                            <button class="started-btn">Get Started</button>
+                            <button class="started-btn" type="submit">Get Started</button>
                         </form>
                     </div>
                 </div>
@@ -78,31 +84,31 @@
 
                 <div class="social-media-right">
                     <div class="icon first-icon">
-                        <a href="https://ru-ru.facebook.com/" class="icon-link"><img src="images/facebook_icon.png" alt="" class="icon__image"></a>
+                        <a href="https://ru-ru.facebook.com/" class="icon-link"><img src="images/facebook_icon.png" alt="" class="icon__image facebook-icon"></a>
                     </div>
     
                     <div class="icon">
-                        <a href="https://twitter.com/" class="icon-link"><img src="images/twitter_icon.png" alt="" class="icon__image"></a>
+                        <a href="https://twitter.com/" class="icon-link"><img src="images/twitter_icon.png" alt="" class="icon__image twitter-icon"></a>
                     </div>
     
                     <div class="icon">
-                        <a href="https://www.linkedin.com/" class="icon-link"><img src="images/linkedin_icon.png" alt="" class="icon__image"></a>
+                        <a href="https://www.linkedin.com/" class="icon-link"><img src="images/linkedin_icon.png" alt="" class="icon__image linkedin-icon"></a>
                     </div>
     
                     <div class="icon">
-                        <a href="https://ru.pinterest.com/" class="icon-link"><img src="images/pinterest_icon.png" alt="" class="icon__image"></a>
+                        <a href="https://ru.pinterest.com/" class="icon-link"><img src="images/pinterest_icon.png" alt="" class="icon__image pinterest-icon"></a>
                     </div>
     
                     <div class="icon">
-                        <a href="https://www.instagram.com/?ysclid=l917zn0487371047619" class="icon-link"><img src="images/instagram_icon.png" alt="" class="icon__image"></a>
+                        <a href="https://www.instagram.com/?ysclid=l917zn0487371047619" class="icon-link"><img src="images/instagram_icon.png" alt="" class="icon__image instagram-icon"></a>
                     </div>
     
                     <div class="icon">
-                        <a href="https://github.com/" class="icon-link"><img src="images/github_icon.png" alt="" class="icon__image"></a>
+                        <a href="https://github.com/" class="icon-link"><img src="images/github_icon.png" alt="" class="icon__image github-icon"></a>
                     </div>
     
                     <div class="icon">
-                        <img src="images/rss_icon.png" alt="" class="icon__image">
+                        <img src="images/rss_icon.png" alt="" class="icon__image rss-icon">
                     </div>
                 </div>
             </div>
@@ -132,13 +138,13 @@
                         <p class="left-part__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                         bibendum laoreet.</p>
                             
-                        <button class="left-part__btn">Download</button>
+                        <button class="left-part__btn" type="button">Download</button>
                     </div>
             
                 </div>
 
                 <div class="tabs-image">
-                    <img src="4.png" alt="">
+                    <img src="4.png" alt="" class="liberty">
                 </div>  
             </div>
         </div>
@@ -256,7 +262,7 @@
                 <p class="what-saying__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
                 <div class="reviews-container">
-                    <div class="review-card">
+                    <div class="review-card hide-review">
                         <div class="review-text">
                             <p class="review-text__lorem">Lorem ipsum dolor sit amet, 
                                 consectetur adipisicing elit. Doloribus 
@@ -266,7 +272,7 @@
                         </div>
                         <div class="triangle"><img src="images/triangle.png" alt=""></div>
                         <div class="review-info">
-                            <div class="reviewer-photo"><img src="images/men_photo1.png" alt=""></div>
+                            <div class="reviewer-photo"><img src="images/men_photo1.png" alt="" class="review-photo"></div>
                             <div class="reviewer-name">
                                 <p class="reviewer-name__first">Davis Rhiel Madsen</p>
                                 <p class="reviewer-name__job-title">Manager</p>
@@ -284,15 +290,19 @@
                         </div>
                         <div class="triangle"><img src="images/triangle.png" alt=""></div>
                         <div class="review-info">
-                            <div class="reviewer-photo"><img src="images/men-photo2.png" alt=""></div>
+                            <div class="reviewer-photo"><img src="images/men-photo2.png" alt="" class="review-photo"></div>
                             <div class="reviewer-name">
                                 <p class="reviewer-name__first">Jaydon Rosser</p>
                                 <p class="reviewer-name__job-title">Manager</p>
                             </div>
                         </div>
+
+                        <div class="review-dots">
+                            <img src="images/dots.png" alt="" class="review-dots-image">
+                        </div>
                     </div>
 
-                    <div class="review-card">
+                    <div class="review-card hide-review">
                         <div class="review-text">
                             <p class="review-text__lorem">Lorem ipsum dolor sit amet, 
                                 consectetur adipisicing elit. Doloribus 
@@ -302,7 +312,7 @@
                         </div>
                         <div class="triangle"><img src="images/triangle.png" alt=""></div>
                         <div class="review-info">
-                            <div class="reviewer-photo"><img src="images/men_photo3.png" alt=""></div>
+                            <div class="reviewer-photo"><img src="images/men_photo3.png" alt="" class="review-photo"></div>
                             <div class="reviewer-name">
                                 <p class="reviewer-name__first">Cooper Dorwart</p>
                                 <p class="reviewer-name__job-title">Manager</p>
@@ -333,17 +343,19 @@
                 <div class="contact-line"></div>
                 <p class="contact-us__text">Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit.</p>
-                <div class="contact-form">
-                    <div class="contact-left-part">
-                        <input type="text" class = "contact-us__input" placeholder="Name">
-                        <input type="text" class = "contact-us__input" placeholder="E-mail">
-                        <input type="password" class = "contact-us__input" placeholder="Password">
+                <form>
+                    <div class="contact-form">
+                        <div class="contact-left-part">
+                            <input type="text" class = "contact-us__input" placeholder="Name">
+                            <input type="email" class = "contact-us__input" placeholder="E-mail">
+                            <input type="password" class = "contact-us__input" placeholder="Password">
+                        </div>
+                        <div class="contact-right-part">
+                            <textarea name="message" id="" class="contact-us__message" placeholder="Message"></textarea>
+                        </div>
                     </div>
-                    <div class="contact-right-part">
-                        <textarea name="message" id="" class="contact-us__message" placeholder="Message"></textarea>
-                    </div>
-                </div>
-                <button class="send-btn">Send Message</button>
+                    <button class="send-btn" type="submit">Send Message</button>
+                </form>
             </div>
         </div>
     </div>

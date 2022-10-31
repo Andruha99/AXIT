@@ -1,0 +1,311 @@
+@media screen and (max-width : 401px){
+    .main {
+        overflow-x: hidden;
+    }
+    .ax-logo {
+        height: 22px;
+    }
+
+    .top-container {
+        width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-logo {
+        padding-left: 20px;
+    }
+
+    .fa-bars {
+        display: inline-block;
+        font-size: 40px;
+        color: white;
+        padding-top: 10px;
+        padding-right: 19px;
+    }
+
+    .head-info {
+        height: 1005px;
+    }
+
+    .bcg-head-color {
+        height: 1005px;
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    .header-content__title {
+        width: 288px;
+        text-align: center;
+        font-size: 36px;
+        line-height: 42.26px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-line {
+        margin: 0px auto;
+    }
+
+    .header-content__text {
+        margin-top: 42px;
+        text-align: center;
+    }
+
+    .header-content__download {
+        margin-bottom: 50px;
+    }
+
+    .header-form {
+        width: 288px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    .header-form-inputs__title {
+        font-size: 14px;
+        line-height: 19.07px;
+        margin: 0px;
+    }
+
+    .header-form-inputs__input {
+        width: 240px;
+    }
+
+    .passwor-input {
+        margin-bottom: 50px;
+    }
+
+    .social-media-container {
+        width: 100%;
+        flex-direction: column;
+    } 
+
+    .social-media-left__title {
+        text-align: center;
+    }
+
+    .social-media-left__text {
+        text-align: center;
+        width: 271px;
+    }
+
+    .icon {
+        padding-top: 32px;
+        padding-left: 22px;
+        padding-bottom: 44px;
+    }
+
+    .first-icon {
+        padding-left: 0px;
+    }
+
+    .icon__image {
+        height: 26px;
+    }
+
+    .tabs {
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .left-part__line {
+        margin-left: 77px;
+    }
+
+    .tabs-image {
+        display: none;
+    }
+
+    .left-part {
+        padding: 0px 0px 27px 20px;
+        border: 1px solid #C6CBCD;
+        border-top: 0px;
+        width: 288px; 
+    }
+
+    .left-part__title {
+        font-size: 18px;
+        line-height: 24.51px;
+        text-align: center;
+    }
+
+    .left-part__text {
+        text-align: center;
+    }
+
+    .tab-selector {
+        width: 96px;
+    }
+
+    .block-why__title {
+        font-size: 18px;
+        line-height: 21.13px;
+    }
+
+    .block-why__line {
+        width: 134px;
+    }
+
+    .awesome__lorem {
+        font-size: 13px;
+        line-height: 15.26px;
+    }
+
+    .awesome {
+        width: 100%;
+    }
+
+    .awesome-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .awesome-container__cards {
+        width: 288px;
+    }
+
+    .prices-container__title {
+        font-size: 24px;
+        line-height: 28.18px;
+    }
+
+    .prices-content {
+        width: 100%;
+    }
+
+    .tariffs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-card {
+        margin: 0px;
+    }
+
+    .tarrif-card {
+        width: 288px;
+        margin-bottom: 27px;
+    }
+
+    .tarif-head__name {
+        font-size: 18px;
+        line-height: 24.51px;
+    }
+
+    .tarif-head__price {
+        font-size: 24px;
+        line-height: 28.18px;
+        height: 78px;
+    }
+
+    .tarif-head__information {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .list__data {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .what-saying {
+        width: 100%;
+    }
+
+    .hide-review {
+        display: none;
+    }
+
+    .what-saying__title {
+        font-size: 24px;
+        line-height: 28.18px;
+    }
+
+    .prices-line {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+
+    .what-saying__lorem {
+        padding-top: 0px;
+        padding-bottom: 24px;
+    }
+
+    .reviews-container {
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .review-dots {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .stylish-design {
+        height: 358px;
+    }
+
+    .bcg-color {
+        height: 358px;
+    }
+
+    .stylish-container__title {
+        text-align: center;
+        font-size: 24px;
+        line-height: 28.18px;
+
+    }
+
+    .stylish-container__text {
+        text-align: center;
+        margin-bottom: 66px;
+        font-size: 14px;
+        line-height: 16.44px;
+        font-weight: 400;
+    }
+
+    .contact-us {
+        width: 100%;
+    }  
+    
+    .contact-us__title {
+        font-size: 24px;
+        line-height: 28.18px;
+    }
+
+    .contact-line {
+        width: 134px;
+        margin-bottom: 34px;
+    }
+
+    .contact-us__text {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-us__input {
+        width: 288px;
+    }
+
+    .contact-us__message {
+        width: 288px;
+        margin-left: 0px;
+    }
+}
